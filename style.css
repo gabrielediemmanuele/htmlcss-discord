@@ -249,12 +249,25 @@ a {
   margin-bottom: 20px;
 }
 
+.fa-instagram,
+.fa-facebook,
+.fa-youtube {
+  font-size: 35px;
+  margin: 0 20px;
+}
+.fa-twitter {
+  font-size: 35px;
+}
+
+/* structure css turquoise-blocks*/
 .turquoise-block {
   width: 200px;
   height: 600px;
   background-color: #20b2aa;
   border: 1px dashed rgb(255, 255, 255);
 }
+
+/* style elements t. blocks*/
 
 /*Section 6 - Foooter*/
 footer {
