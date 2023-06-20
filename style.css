@@ -79,14 +79,16 @@ a {
 .x-container {
   display: flex;
   background-image: url(./img/jumbo.png);
-  background-size: contain;
-  min-height: 500px;
+  background-size: cover;
+  width: 100%;
+  min-height: 700px;
+  background-repeat: no-repeat;
 }
 
 .pink-block {
   width: 800px;
   min-height: 400px;
-  margin: 50px auto;
+  margin: 100px auto;
   padding: 50px 20px;
   text-align: center;
   box-sizing: border-box;
@@ -116,7 +118,7 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 50px auto;
+  margin: 100px auto;
 }
 
 .lightpink-block {
@@ -159,14 +161,25 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 50px auto;
+  margin: 0 auto 0px auto;
 }
 
 /* section 2 style is from the one! */
+#wave2 {
+  transform: scaleY(-1);
+}
+/*section 3 is like section 1*/
 
-/*section 3 like section 1*/
+/*section 4 structure*/
+.x4-container {
+  min-height: 900px;
+  background-color: #f6f6f6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto 0px auto;
+}
 
-/*section 4*/
 .green-block {
   width: 1200px;
   height: 800px;
@@ -175,8 +188,10 @@ a {
   border: 1px dashed black;
 }
 
+/*section 4 e. style */
+
 /* section 5*/
-.x3-container {
+.x5-container {
   background-color: #23272a;
   display: flex;
   justify-content: center;
@@ -204,7 +219,7 @@ footer {
   border-top: white 1px solid;
 }
 
-.x4-container {
+.x6-container {
   background-color: #23272a;
   display: flex;
   justify-content: center;
