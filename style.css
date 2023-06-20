@@ -6,7 +6,7 @@ body {
   font-family: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-/* header css*/
+/* header css structure*/
 header {
   background-color: #3161e0;
   display: flex;
@@ -40,6 +40,10 @@ header {
   text-align: center;
 }
 
+/* css element style */
+#logo-discord {
+  width: 200px;
+}
 /* front section css */
 .x-container {
   background-color: #00008b;
