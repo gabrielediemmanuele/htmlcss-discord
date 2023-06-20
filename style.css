@@ -83,7 +83,7 @@ a {
 .x-container {
   display: flex;
   background-image: url(./img/jumbo.png);
-  background-size: cover;
+  background-size: cover; /*o cover*/
   width: 100%;
   min-height: 700px;
   background-repeat: no-repeat;
@@ -114,6 +114,7 @@ a {
 .brow-b {
   background-color: #212427;
   color: white;
+  cursor: pointer;
 }
 
 /*section 1 - structure*/
@@ -188,7 +189,8 @@ a {
   text-align: center;
   color: #23272a;
 }
-/*section 4 e. style */
+
+/*section 4 elements style */
 .green-block > h2 {
   font-size: 45px;
   margin: 10px auto 5px auto;
@@ -213,7 +215,7 @@ a {
   cursor: pointer;
 }
 
-/* section 5*/
+/* section 5* structure */
 .x5-container {
   background-color: #23272a;
   display: flex;
@@ -233,7 +235,8 @@ a {
   box-sizing: border-box;
   color: white;
 }
-/*salmon-block style elements*/
+
+/*salmon-block elements style */
 .salmon-block > h2 {
   font-size: 45px;
   color: #7289da;
@@ -250,6 +253,7 @@ a {
   color: white;
   font-family: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin-bottom: 20px;
+  cursor: pointer;
 }
 
 .fa-instagram,
@@ -257,9 +261,11 @@ a {
 .fa-youtube {
   font-size: 35px;
   margin: 0 20px;
+  cursor: pointer;
 }
 .fa-twitter {
   font-size: 35px;
+  cursor: pointer;
 }
 
 /* structure css turquoise-blocks*/
@@ -269,7 +275,7 @@ a {
   color: white;
 }
 
-/* style elements t. blocks*/
+/* style elements turq. blocks*/
 .gen-list {
   list-style: none;
   padding: 0 40px;
@@ -278,12 +284,13 @@ a {
   line-height: 38px;
   font-size: 25px;
 }
+
 .gen-list > h4 {
   color: #7188d9;
   margin-bottom: 13px;
 }
 
-/*Section 6 - Foooter*/
+/*Section 6 - Foooter structure */
 
 footer {
   border-top: #3d4664 1px solid;
@@ -306,8 +313,9 @@ footer {
   align-items: center;
 }
 
-/*footer bar style*/
+/*footer bar elements style*/
 .register {
   background-color: #7289da;
   color: white;
+  cursor: pointer;
 }
