@@ -86,10 +86,8 @@ a {
 .pink-block {
   width: 800px;
   min-height: 400px;
-  /* background-color: #ee82ee; */
   margin: 50px auto;
   padding: 50px 20px;
-  /* border: 1px dashed black; */
   text-align: center;
   box-sizing: border-box;
 }
@@ -112,7 +110,7 @@ a {
   color: white;
 }
 
-/*section 1*/
+/*section 1 - structure*/
 .x1-container {
   background-color: #ffffff;
   display: flex;
@@ -122,28 +120,39 @@ a {
 }
 
 .lightpink-block {
-  width: 450px;
+  width: 350px;
   height: 400px;
   background-color: #ee82ee;
   border: 1px dashed black;
+  padding: 0px 20px;
+  box-sizing: border-box;
+  color: #2a2e31;
 }
 
 .lightblue-block {
-  width: 750px;
+  max-width: 750px;
   height: 400px;
   background-color: #82b6ee;
   border: 1px dashed black;
-}
-
-/*section 2*/
-.x2-container {
-  background-color: #c4c4c4;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 50px 0px auto;
-  padding: 50px 0 50px 0;
 }
+
+/*section 1 - Element style*/
+.lightblue-block > img {
+  width: 90%;
+}
+
+.lightpink-block > h2 {
+  font-size: 40px;
+}
+
+.lightpink-block > p {
+  font-size: 17px;
+}
+
+/*section 2*/
 
 /*section 3 like section 1*/
 
