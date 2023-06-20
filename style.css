@@ -45,6 +45,7 @@ header {
 /* header css element style */
 #logo-discord {
   width: 200px;
+  cursor: pointer;
 }
 
 ul {
@@ -65,17 +66,20 @@ a {
   border-style: none;
   font-size: 22px;
   border-radius: 35px;
-  padding: 10px 10px;
+  padding: 10px 20px;
 }
 
 .accedi {
   background-color: white;
+  cursor: pointer;
 }
 
-/* front section css */
+/* front section css structure*/
+
 .x-container {
-  background-color: #00008b;
   display: flex;
+  background-image: url(./img/jumbo.png);
+  background-size: contain;
 }
 
 .pink-block {
@@ -88,6 +92,8 @@ a {
   align-items: center;
   border: 1px dashed black;
 }
+
+/*front section css style*/
 
 /*section 1*/
 .x1-container {
