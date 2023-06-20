@@ -80,20 +80,37 @@ a {
   display: flex;
   background-image: url(./img/jumbo.png);
   background-size: contain;
+  min-height: 500px;
 }
 
 .pink-block {
   width: 800px;
-  height: 400px;
-  background-color: #ee82ee;
+  min-height: 400px;
+  /* background-color: #ee82ee; */
   margin: 50px auto;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  border: 1px dashed black;
+  padding: 50px 20px;
+  /* border: 1px dashed black; */
+  text-align: center;
+  box-sizing: border-box;
 }
 
 /*front section css style*/
+.pink-block > h1 {
+  font-size: 40px;
+}
+
+.pink-block > p {
+  font-size: 20px;
+}
+
+.mac-b {
+  margin-right: 20px;
+}
+
+.brow-b {
+  background-color: #212427;
+  color: white;
+}
 
 /*section 1*/
 .x1-container {
