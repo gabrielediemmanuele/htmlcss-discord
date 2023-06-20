@@ -2,11 +2,13 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  color: white;
+  font-family: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 /* header css*/
 header {
-  background-color: #add8e6;
+  background-color: #3161e0;
   display: flex;
   min-height: 25px;
 }
@@ -16,7 +18,7 @@ header {
   min-height: 20px;
   margin: 20px auto;
   display: flex;
-  background-color: #daa520;
+  background-color: #3161e0;
   justify-content: space-between;
   align-items: center;
   border: 1px dashed black;
