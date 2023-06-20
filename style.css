@@ -52,7 +52,7 @@ header {
   cursor: pointer;
 }
 
-ul {
+.nav-list {
   list-style: none;
   display: flex;
   justify-content: space-between;
@@ -265,9 +265,22 @@ a {
   height: 600px;
   background-color: #20b2aa;
   border: 1px dashed rgb(255, 255, 255);
+  color: white;
 }
 
 /* style elements t. blocks*/
+.gen-list {
+  list-style: none;
+  padding: 0 40px;
+  margin: 75px 0;
+  cursor: pointer;
+  line-height: 40px;
+  font-size: 25px;
+}
+.gen-list > h4 {
+  color: #7188d9;
+  margin-bottom: 13px;
+}
 
 /*Section 6 - Foooter*/
 footer {
