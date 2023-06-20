@@ -1,0 +1,144 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* header css*/
+header {
+  background-color: #add8e6;
+  display: flex;
+  min-height: 25px;
+}
+
+.nav-container {
+  width: 1200px;
+  height: 20px;
+  margin: 20px auto;
+  display: flex;
+  background-color: #daa520;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px dashed black;
+}
+
+.block2 {
+  width: 50%;
+  border: 1px dashed black;
+  text-align: center;
+}
+
+/* front section css */
+.x-container {
+  background-color: #00008b;
+  display: flex;
+}
+
+.pink-block {
+  width: 800px;
+  height: 400px;
+  background-color: #ee82ee;
+  margin: 50px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px dashed black;
+}
+
+/*section 1*/
+.x1-container {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px auto;
+}
+
+.lightpink-block {
+  width: 450px;
+  height: 400px;
+  background-color: #ee82ee;
+  border: 1px dashed black;
+}
+
+.lightblue-block {
+  width: 750px;
+  height: 400px;
+  background-color: #82b6ee;
+  border: 1px dashed black;
+}
+
+/*section 2*/
+.x2-container {
+  background-color: #c4c4c4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 0px auto;
+  padding: 50px 0 50px 0;
+}
+
+/*section 3 like section 1*/
+
+/*section 4*/
+.green-block {
+  width: 1200px;
+  height: 800px;
+  background-color: #228b22;
+  margin: auto;
+  border: 1px dashed black;
+}
+
+/* section 5*/
+.x3-container {
+  background-color: #23272a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 50px 0 50px 0;
+}
+
+.salmon-block {
+  width: 390px;
+  height: 600px;
+  background-color: #f08080;
+  border: 1px dashed rgb(255, 255, 255);
+}
+
+.turquoise-block {
+  width: 200px;
+  height: 600px;
+  background-color: #20b2aa;
+  border: 1px dashed rgb(255, 255, 255);
+}
+
+/*Section 6 - Foooter*/
+footer {
+  border-top: white 1px solid;
+}
+
+.x4-container {
+  background-color: #23272a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+.footer-bar {
+  width: 1200px;
+  height: 50px;
+  margin: 30px 0px 0px 0px;
+  display: flex;
+  background-color: #7fffd4;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px dashed black;
+}
+
+.button {
+  background-color: #f08080;
+  border: 1px dashed black;
+  padding: 5px 10px;
+}
