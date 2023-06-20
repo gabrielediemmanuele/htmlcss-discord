@@ -152,7 +152,17 @@ a {
   font-size: 17px;
 }
 
-/*section 2*/
+/*section 2 structure*/
+.x2-container {
+  min-height: 500px;
+  background-color: #f6f6f6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px auto;
+}
+
+/* section 2 style is from the one! */
 
 /*section 3 like section 1*/
 
